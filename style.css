@@ -1,0 +1,31 @@
+
+p {
+    color: green;
+}
+h1 {
+    border: 
+        red;
+        10px;
+}
+
+
+.navbar{
+    height: 60px;
+    display: blocSk;
+    margin:0;
+}
+
+.jumbotron{
+    text-align: center;
+    margin-top: 120px;
+    padding-bottom: 220px;
+    margin-bottom: 60px;
+    background-image: url("Resources/jumbotron-bg.jpg");
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+jumbotron h1{
+    color: white;
+}
