@@ -9,8 +9,8 @@ height:75px; /* fixed header height*/
 margin:-75px 0 0; /* negative fixed header height */
 }
 
-p {
-    color: green;
+.lead {
+    color: darkgreen;
 }
 h2 {
     text-align: center;
