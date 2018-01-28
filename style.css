@@ -1,6 +1,13 @@
+body {
+  position: relative;
+}
+
 * {
 text-align: center;
 }
+
+
+
 
 :target:before {
 content:"";

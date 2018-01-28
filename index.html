@@ -8,48 +8,48 @@
     <meta name="author" content="">
     <link rel="icon" href="">
 
-    <title>TrevorSeibelHome</title>
+    <title>Welcome to my Portfolio</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-
+    
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navScrollSpy" data-offset="150">
 
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler intro" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" style="padding-left: 30px" id="navbarsExampleDefault">
-            <ul class="navbar-nav mx-auto">
-                <li class="d-sm-none d-xl-none">
-                    <a class="nav-link" href="#">Trevor Seibel</a>
+            <ul class="navbar-nav mx-auto" id="navScrollSpy">
+                <li class="d-sm-none d-xl-none scroll">
+                    <a class="nav-link scroll" href="#Top">Trevor Seibel</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#About">About</a>
+                    <a class="nav-link scroll" href="#About">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Skills">Skills</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link d-none d-md-block" href="#">Trevor Seibel</a>
+                    <a class="nav-link scroll" href="#Skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Projects">Projects</a>
+                    <a class="nav-link d-none d-md-block scroll" href="#Top">Trevor Seibel</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Contact">Contact</a>
+                    <a class="nav-link scroll" href="#Projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="#Contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
 
-    <div class="container container-fluid" style="padding-top: 100px;">
+    <div class="container container-fluid"  id="Top" style="padding-top: 100px;">
         <div class="row   justify-content-center">
             <div class="col-md-4">
                 <img class="mx-auto d-block  rounded-circle border border-dark" src="/Resources/profile.jpg" style="height: 250px;width: 250px;" alt="Profile Picture">
@@ -128,26 +128,24 @@
                 </div>
             </div>
         </div>
-        </div>
-
     </div>
-
+    
     <footer class="bd-footer text-muted">
         <div class="row justify-content-center" style="background-color:black">
-            <div class="col-12 mb-5 mt-5">
-                <h2 id="Contact">Contact</h2>
+            <div class="col-12 mx-auto mb-5 mt-5" style="color:white">
+                <h2 id="Contact" >Contact</h2>
             </div>
         </div>
 
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups" style="background-color:black">
 
             <div class="container w-100">
-                <div class="row justify-content-center mb-5 w-100">
-                    <div class="mx-auto"><a class="btn btn-outline-dark" href="https://github.com/teebl">Github</a></div>
-                    <div class="mx-auto"><a class="btn btn-outline-dark" href="mailto:trevor.seibel@gmail.com">Email</a></div>
-                    <div class="mx-auto"><a class="btn btn-outline-dark" href="https://twitter.com/mrseabull">Twitter</a></div>
-                    <div class="mx-auto"><a class="btn btn-outline-dark" href="https://teebl.github.io/blog/">Blog</a></div>
-                    <div class="mx-auto"><a class="btn btn-outline-dark" href="https://ca.linkedin.com/in/trevor-seibel-502218132">LinkedIn</a>
+                <div class="row justify-content-center mb-5 w-100" style="color:white">
+                    <div class="mx-auto"><a class="btn btn-outline-dark btn-lg" style="color:white" href="https://github.com/teebl">Github</a></div>
+                    <div class="mx-auto"><a class="btn btn-outline-dark btn-lg" style="color:white" href="mailto:trevor.seibel@gmail.com">Email</a></div>
+                    <div class="mx-auto"><a class="btn btn-outline-dark btn-lg"  style="color:white" href="https://twitter.com/mrseabull">Twitter</a></div>
+                    <div class="mx-auto"><a class="btn btn-outline-dark btn-lg" style="color:white" href="https://teebl.github.io/blog/">Blog</a></div>
+                    <div class="mx-auto"><a class="btn btn-outline-dark btn-lg" style="color:white" href="https://ca.linkedin.com/in/trevor-seibel-502218132">LinkedIn</a>
                     </div>
 
                 </div>
@@ -185,10 +183,9 @@
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
-
-    <!-- Smooth Scroll Animation for Anchor Links, courtesy of-->
-
+    
+    <!--Portfolio javascript-->
+    <script src="app.js"></script>
 
 </body>
 
